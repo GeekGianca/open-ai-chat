@@ -12,7 +12,7 @@ async function sendMessage() {
   fetch("https://api.aimlapi.com/chat/completions", {
     method: "POST",
     headers: {
-      Authorization: "Bearer 078ebc2b2a594dd08b5220fb69dafd20",
+      Authorization: "Bearer",
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
